@@ -1,0 +1,44 @@
+{
+  "desserts": [
+    {
+      "id": 1,
+      "name": "Alfajores",
+      "price": "100",
+      "img_src": "/api/images/cookie-big.jpg",
+      "img_small_src": "/api/images/cookie-small.jpg",
+      "text": "Good Cookie"
+    },
+    {
+      "id": 2,
+      "name": "Cookie",
+      "price": "100",
+      "img_src": "/api/images/cookie-big.jpg",
+      "img_small_src": "/api/images/cookie-small.jpg",
+      "text": "Good Cookie"
+    },
+    {
+      "id": 3,
+      "name": "Cookie1",
+      "price": "100",
+      "img_src": "/api/images/cookie-big.jpg",
+      "img_small_src": "/api/images/cookie-small.jpg",
+      "text": "Good Cookie"
+    },
+    {
+      "id": 4,
+      "name": "Cookie2",
+      "price": "100",
+      "img_src": "/api/images/cookie-big.jpg",
+      "img_small_src": "/api/images/cookie-small.jpg",
+      "text": "Good Cookie"
+    },
+    {
+      "id": 5,
+      "name": "Cookie3",
+      "price": "100",
+      "img_src": "/api/images/cookie-big.jpg",
+      "img_small_src": "/api/images/cookie-small.jpg",
+      "text": "Good Cookie"
+    }
+  ]
+}

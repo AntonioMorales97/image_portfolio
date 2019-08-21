@@ -1,0 +1,64 @@
+@import '../../scss/config';
+
+#home {
+  color: #fff;
+  min-height: 400px;
+  background: url('/api/images/header-background-small.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  .darkoverlay {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 400px;
+
+    .intro-text {
+      padding-top: 100px;
+      h1 {
+        font-size: 30px;
+      }
+      h2 {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@include mediaSm {
+  #home {
+    .darkoverlay {
+      .intro-text {
+        h1 {
+          font-size: 50px;
+        }
+        h2 {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}
+
+@include mediaMd {
+  #home {
+    background: url('/api/images/header-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .darkoverlay {
+      .intro-text {
+        h1 {
+          font-size: 70px;
+        }
+        h2 {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}
