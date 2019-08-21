@@ -1,5 +1,7 @@
 import React from 'react';
 import { LazyLoadComponent } from 'react-lazy-load-image-component';
+import PropTypes from 'prop-types';
+
 import './dessert.scss';
 
 function Dessert({ dessert, scrollPosition }) {
@@ -17,5 +19,9 @@ function Dessert({ dessert, scrollPosition }) {
     </div>
   );
 }
+
+Dessert.propTypes = {
+  dessert: PropTypes.object.isRequired
+};
 
 export default Dessert;
