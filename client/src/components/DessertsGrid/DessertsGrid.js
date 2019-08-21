@@ -1,7 +1,6 @@
 import React from 'react';
 import { trackWindowScroll } from 'react-lazy-load-image-component';
 import Dessert from '../Dessert/Dessert';
-
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
