@@ -4,6 +4,7 @@
       "id": 1,
       "name": "Cookie1",
       "price": "100",
+      "quantity": "20",
       "img_src": "/api/images/cookie-big.jpg",
       "img_small_src": "/api/images/cookie-small.jpg",
       "text": "Good Cookie"
@@ -12,6 +13,7 @@
       "id": 2,
       "name": "Cookie2",
       "price": "100",
+      "quantity": "20",
       "img_src": "/api/images/cookie-big.jpg",
       "img_small_src": "/api/images/cookie-small.jpg",
       "text": "Good Cookie"
@@ -20,6 +22,7 @@
       "id": 3,
       "name": "Cookie3",
       "price": "100",
+      "quantity": "20",
       "img_src": "/api/images/cookie-big.jpg",
       "img_small_src": "/api/images/cookie-small.jpg",
       "text": "Good Cookie"
@@ -28,6 +31,7 @@
       "id": 4,
       "name": "Cookie4",
       "price": "100",
+      "quantity": "20",
       "img_src": "/api/images/cookie-big.jpg",
       "img_small_src": "/api/images/cookie-small.jpg",
       "text": "Good Cookie"
@@ -36,6 +40,7 @@
       "id": 5,
       "name": "Cookie5",
       "price": "100",
+      "quantity": "20",
       "img_src": "/api/images/cookie-big.jpg",
       "img_small_src": "/api/images/cookie-small.jpg",
       "text": "Good Cookie"
@@ -44,6 +49,7 @@
       "id": 6,
       "name": "Cookie6",
       "price": "100",
+      "quantity": "6",
       "img_src": "/api/images/cookie-big.jpg",
       "img_small_src": "/api/images/cookie-small.jpg",
       "text": "Good Cookie"

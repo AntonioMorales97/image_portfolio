@@ -1,0 +1,19 @@
+@import '../../scss/config';
+
+.pricing-container {
+  min-height: calc(100vh - 120px);
+  .pricing-outer {
+    margin-top: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@include mediaLg {
+  .pricing-container {
+    .pricing-outer {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+}
