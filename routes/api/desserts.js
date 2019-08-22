@@ -6,7 +6,7 @@ const { rateLimiter, slowDowner } = require('../../middleware/limitation');
 // @route   GET api/desserts
 // @desc    Get desserts
 // @access  Public
-router.get('/', [], (req, res) => {
+router.get('/', [slowDowner, rateLimiter], (req, res) => {
   res.json(desserts);
 });
 

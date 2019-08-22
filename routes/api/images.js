@@ -6,7 +6,7 @@ const { rateLimiter, slowDowner } = require('../../middleware/limitation');
 // @route   GET api/images
 // @desc    Get image
 // @access  Public
-router.get('/:file', [slowDowner], (req, res) => {
+router.get('/:file', [slowDowner, rateLimiter], (req, res) => {
   console.log(`Sent image: ${req.params.file}`);
   const options = {
     root: path.join(__dirname, '../../resources/images'),
