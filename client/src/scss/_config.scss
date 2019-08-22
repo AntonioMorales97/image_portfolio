@@ -12,8 +12,9 @@
     @content;
   }
 }
+
 @mixin mediaLg {
-  @media screen and (min-widht: 992px) and (max-width: 1999px) {
+  @media screen and (min-width: 992px) and (max-width: 1999px) {
     @content;
   }
 }
